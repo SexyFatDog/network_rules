@@ -4,6 +4,6 @@ desc: 网上办事大厅重定向
 http:
   mitm:
     - '*.scnu.edu.cn'
-	- '*.xieyuqilovehuangjialin.site'
+    - '*.xieyuqilovehuangjialin.site'
   rewrite:
-    -(.*)ehall.scnu.edu.cn/infoplus/form/(.*) http://www.xieyuqilovehuangjialin.site
+    - (.*)ehall.scnu.edu.cn/infoplus/form/(.*) http://www.xieyuqilovehuangjialin.site 302
