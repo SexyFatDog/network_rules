@@ -1,0 +1,9 @@
+name: rewrite_ehall_scnu
+desc: 网上办事大厅重定向
+ 
+http:
+  mitm:
+    - '*.scnu.edu.cn'
+	- '*.xieyuqilovehuangjialin.site'
+  rewrite:
+    -(.*)ehall.scnu.edu.cn/infoplus/form/(.*) http://www.xieyuqilovehuangjialin.site
